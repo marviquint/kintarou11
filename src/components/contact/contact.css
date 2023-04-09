@@ -1,0 +1,107 @@
+.container.contact__container{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FDB931 8%, #FDB931 25%, #8A6E2F 62.5%, #5d4a1f 100%);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+
+.contact__option:hover{
+    background: transparent;
+    border: 2px solid var(--color-gold);
+    color: var(--color-gold);
+}
+
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.contact__option a {
+    margin-top: .7rem;
+    display: inline-block;
+    color: black;
+}
+
+.contact__option:hover a {
+    margin-top: .7rem;
+    display: inline-block;
+    color: var(--color-gold);
+}
+
+
+/*FORM*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--color-gold);
+    resize: none;
+    color: var(--color-gold);
+}
+
+::placeholder{
+    color: var(--color-gold);
+}
+
+.btn.btn-primary{
+    height: 2.5rem;
+    width: 10rem;
+    border: 1px solid var(--color-gold);
+    background: var(--color-bg-gold);
+    font-weight: bold;
+}
+
+.btn.btn-primary:hover{
+    background: transparent;
+    cursor: pointer;
+}
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1024px){
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/*Media Queries (Small Devices)*/
+@media screen and (max-width: 600px){
+   
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/*Media Queries (Extra Small Devices)*/
+@media screen and (max-width: 300px){
+    .container.contact__container{
+        
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+ }

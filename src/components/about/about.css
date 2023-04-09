@@ -1,0 +1,148 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__me-image{
+    width: 100%;
+    border-radius: 50%;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+        radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FDB931 8%, #FDB931 25%, #8A6E2F 62.5%, #5d4a1f 100%);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover{
+    transform: rotate(10deg);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FDB931 8%, #FDB931 25%, #8A6E2F 62.5%, #5d4a1f 100%);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.about__card:hover{
+    background: transparent;
+    border: 1px solid transparent;
+    border-color: var(--color-gold);
+    color: var(--color-gold);
+}
+
+.about__card:hover.about__icon{
+    color: var(--color-gold);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h3{
+    font-size: 1rem;
+}
+
+.about__card h5{
+    font-size: 0.85rem;
+}
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-white);
+    text-align: justify;
+    font-weight: bold;
+}
+
+.typing-text {
+    font-size: xx-large;
+    overflow: hidden; /* This is to hide the extra text */
+    border-right: 2px solid var(--color-gold); /* This creates the blinking cursor */
+    white-space: nowrap; /* This prevents the text from wrapping */
+    animation: typing 2s steps(20) infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  p{
+    color: var(--color-gold);
+  }
+  
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1024px){
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about__me-image{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+    }
+
+
+}
+
+/*Media Queries (Small Devices)*/
+@media screen and (max-width: 600px){
+    .about__me{
+        width: 100%;
+        margin: 0 auto 3rem;
+    }
+
+
+    .about__content{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+
+    .typing-text {
+        font-size: large;
+        overflow: hidden; /* This is to hide the extra text */
+        border-right: 2px solid var(--color-gold); /* This creates the blinking cursor */
+        white-space: nowrap; /* This prevents the text from wrapping */
+        animation: typing 2s steps(20) infinite;
+      }
+      
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+}
+
+/*Media Queries (Extra Small Devices)*/
+@media screen and (max-width: 300px){
+ 
+ }
+ 

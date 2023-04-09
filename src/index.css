@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+
+    /*Colors*/
+    --color-bg: #5d5df5;
+    --color-bg-variant:#2b2bcc;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-gold: #A57C01;
+
+    /*Layout*/
+    --containter-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body.dark-mode{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #fff;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #080402;
+}
+
+
+
+
+/*General Styles*/
+
+.container{
+    width: var(--containter-width-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 500 bold;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: var(--color-gold);
+}
+
+section{
+    margin-top: 8rem;
+}
+
+section > h5{
+    margin-top: 7rem;
+    color: var(--color-gold);
+}
+
+section > h2, 
+section > h5{
+    text-align: center;
+    color: var(--color-gold);
+}
+
+section > h2 {
+    margin-bottom: 3rem;
+    color: var(--color-gold);
+}
+
+.text-light{
+    color: var(--color-light);
+}
+
+p{
+    color: var(--color-gold);
+}
+
+a{
+  color: var(--color-white);
+}
+
+a:hover{
+    color: var(--color-primary);
+}
+
+.btn{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-gold);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 2px solid var(--color-gold);
+}
+
+.btn-link{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-gold);
+    padding: 0.75rem 1.2rem;
+}
+
+.btn-link:hover{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-white);
+    padding: 0.75rem 1.2rem;
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-gold);
+}
+
+.btn-primary{
+    background: var(--color-gold);
+    color: var(--color-gold);
+    
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+}
+
+/*Media Queries (Small Devices)*/
+@media screen and (max-width: 600px){
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}

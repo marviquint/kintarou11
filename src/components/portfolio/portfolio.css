@@ -1,0 +1,76 @@
+
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FDB931 8%, #FDB931 25%, #8A6E2F 62.5%, #5d4a1f 100%);
+    padding: 1.3rem;
+    border-radius: 2rem;
+}
+
+
+.portfolio__item:hover{
+    border-color: var(--color-gold);
+    border: 1px solid var(--color-gold);
+}
+
+#ML__video{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#Dota__video{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+#Valo__video{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.video__Dota{
+    width: "500px";
+    height: "auto";
+}
+
+.video__ML{
+    width: "500px";
+    height: "auto";
+}
+
+.video__Valo{
+    width: "500px";
+    height: "auto";
+}
+
+
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1024px){
+    .portfolio__container{
+        gap: 1.rem;
+    }
+}
+
+/*Media Queries (Small Devices)*/
+@media screen and (max-width: 600px){
+   
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1.rem;
+    }
+}
+
+/*Media Queries (Extra Small Devices)*/
+@media screen and (max-width: 300px){
+ 
+ }
