@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kintarou/static/css/main.ebb34930.css",
-    "main.js": "/kintarou/static/js/main.53d8664e.js",
-    "static/media/ML.mp4": "/kintarou/static/media/ML.c63c8ad3c2c1d4298d67.mp4",
-    "static/media/Dota.mp4": "/kintarou/static/media/Dota.f68bcab92d53424475f1.mp4",
-    "static/media/Valorant.mp4": "/kintarou/static/media/Valorant.a6b8667a1f1a442cbc3d.mp4",
-    "static/media/MEME.png": "/kintarou/static/media/MEME.02ac827c44d47cfebfec.png",
-    "static/media/ML.png": "/kintarou/static/media/ML.18de3752188efb0dec74.png",
-    "static/media/Valorant.png": "/kintarou/static/media/Valorant.c88c232930d630314fa0.png",
-    "static/media/Dota.png": "/kintarou/static/media/Dota.3eb5576c3e5772e45d28.png",
-    "index.html": "/kintarou/index.html",
-    "main.ebb34930.css.map": "/kintarou/static/css/main.ebb34930.css.map",
-    "main.53d8664e.js.map": "/kintarou/static/js/main.53d8664e.js.map"
+    "main.css": "/kintarou11/static/css/main.ebb34930.css",
+    "main.js": "/kintarou11/static/js/main.7df20237.js",
+    "static/media/ML.mp4": "/kintarou11/static/media/ML.c63c8ad3c2c1d4298d67.mp4",
+    "static/media/Dota.mp4": "/kintarou11/static/media/Dota.f68bcab92d53424475f1.mp4",
+    "static/media/Valorant.mp4": "/kintarou11/static/media/Valorant.a6b8667a1f1a442cbc3d.mp4",
+    "static/media/MEME.png": "/kintarou11/static/media/MEME.02ac827c44d47cfebfec.png",
+    "static/media/ML.png": "/kintarou11/static/media/ML.18de3752188efb0dec74.png",
+    "static/media/Valorant.png": "/kintarou11/static/media/Valorant.c88c232930d630314fa0.png",
+    "static/media/Dota.png": "/kintarou11/static/media/Dota.3eb5576c3e5772e45d28.png",
+    "index.html": "/kintarou11/index.html",
+    "main.ebb34930.css.map": "/kintarou11/static/css/main.ebb34930.css.map",
+    "main.7df20237.js.map": "/kintarou11/static/js/main.7df20237.js.map"
   },
   "entrypoints": [
     "static/css/main.ebb34930.css",
-    "static/js/main.53d8664e.js"
+    "static/js/main.7df20237.js"
   ]
 }
