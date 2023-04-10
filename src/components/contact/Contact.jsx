@@ -14,12 +14,6 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <BsDiscord className="contact__option-icon"/>
-            <h4>Discord</h4>
-            <h5>Kintarou #4463</h5>
-            <a href="https://discord.com/channels/@kintarou">Send Message</a>
-          </article>
-          <article className="contact__option">
             <BsFacebook className="contact__option-icon"/>
             <h4>Facebook Page</h4>
             <h5>Kintarou</h5>
@@ -30,6 +24,12 @@ const Contact = () => {
             <h4>Instagram</h4>
             <h5>@kin.gold_11</h5>
             <a href="https://ig.me/kintarou.11">Send DM</a>
+          </article>
+          <article className="contact__option">
+            <BsDiscord className="contact__option-icon"/>
+            <h4>Discord</h4>
+            <h5>Kintarou #4463</h5>
+            <a href="https://discord.com/channels/@kintarou">Send Message</a>
           </article>
         </div>
         <div className="contact__options">
