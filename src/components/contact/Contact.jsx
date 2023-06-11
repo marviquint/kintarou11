@@ -17,13 +17,13 @@ const Contact = () => {
             <BsFacebook className="contact__option-icon"/>
             <h4>Facebook Page</h4>
             <h5>Kintarou</h5>
-            <a href="https://m.me/kintarou.11">Send Message</a>
+            <a href="https://m.me/kintarouhoshi">Send Message</a>
           </article>
           <article className="contact__option">
             <BsInstagram className="contact__option-icon"/>
             <h4>Instagram</h4>
-            <h5>@kin.gold_11</h5>
-            <a href="https://ig.me/kintarou.11">Send DM</a>
+            <h5>@kintarou.11</h5>
+            <a href="https://www.instagram.com/kintarou.11/">Send DM</a>
           </article>
           <article className="contact__option">
             <BsDiscord className="contact__option-icon"/>

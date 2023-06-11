@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/MEME.png'
+import MARVS from '../../assets/MARVS.png'
 import {FaTrophy} from 'react-icons/fa'
 import {IoLogoGameControllerB} from 'react-icons/io'
 
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={MARVS} alt="About Image" />
           </div>
         </div>
 
