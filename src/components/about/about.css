@@ -7,7 +7,6 @@
 .about__me-image{
     height: 540px;
     width: 540px;
-
     border-radius: 50%;
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
         radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FDB931 8%, #FDB931 25%, #8A6E2F 62.5%, #5d4a1f 100%);
@@ -86,7 +85,28 @@
   p{
     color: var(--color-gold);
   }
-  
+
+/*Media Queries (Medium Devices)*/
+@media screen and (max-width: 1366px){
+    .about__container{
+        display: grid;
+        grid-template-columns: repeat(2fr);
+        gap: 3;
+    }
+
+    .about__me-image{
+        height: 400px;
+        width: 400px;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__content p{
+        margin: 1rem 0 1.5rem;
+    }
+
+
+}
+
 
 /*Media Queries (Medium Devices)*/
 @media screen and (max-width: 1024px){
@@ -96,7 +116,8 @@
     }
 
     .about__me-image{
-        width: 50%;
+        height: 150px;
+        width: 150px;
         margin: 2rem auto 4rem;
     }
 
@@ -114,6 +135,11 @@
         margin: 0 auto 3rem;
     }
 
+    .about__me-image{
+        height: 220px;
+        width: 250px;
+        border-radius: 50%;
+    }
 
     .about__content{
         text-align: center;
