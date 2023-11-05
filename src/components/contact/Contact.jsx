@@ -31,13 +31,25 @@ const Contact = () => {
             <h5>Kintarou #4463</h5>
             <a href="https://discord.com/channels/@kintarou">Send Message</a>
           </article>
+          <article className="contact__option">
+            <BsDiscord className="contact__option-icon"/>
+            <h4>YouTube</h4>
+            <h5>Kintarou</h5>
+            <a href="https://www.youtube.com/@kintarou.11">Visit Channel</a>
+          </article>
         </div>
         <div className="contact__options">
+        <article className="contact__option">
+            <IoLogoGameControllerB className="contact__option-icon"/>
+            <h4>Genshin Impact</h4>
+            <h5>Ei</h5>
+            <h4>UID: 872323686</h4>
+          </article>
           <article className="contact__option">
             <IoLogoGameControllerB className="contact__option-icon"/>
             <h4>Dota 2</h4>
-            <h5>Kintarou</h5>
-            <h4>ID #: 872533417</h4>
+            <h5>Nari</h5>
+            <h4>ID #: 913086967</h4>
           </article>
           <article className="contact__option">
             <IoLogoGameControllerB className="contact__option-icon"/>

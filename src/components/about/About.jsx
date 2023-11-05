@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './about.css'
 import MARVS from '../../assets/MARVS.png'
@@ -32,10 +33,10 @@ const About = () => {
             </div>
 
             <p className="typing-text" style={{color: " #A57C01"}}> 
-              Hello and Welcome, This is Kintarou.
+              Hello, this is Kintarou.
             </p>
             <p style={{color: " #A57C01"}}> 
-            I'm a Gamer and Game Content Creator for various games including, Dota, Valorant, Mobile Legends and many more. I have 12 years of Gaming experience and has played various games, whether it's Online Game, LAN Game, or an Offline Game. I welcome all of you to my Website.
+            I'm a Gamer and Game Content Creator for various games including, Genshin Impact, Dota, Valorant, Mobile Legends and many more. I have 12 years of Gaming experience and has played various games, whether it's Online Game, LAN Game, or an Offline Game. I welcome all of you to my Website.
             </p>
 
 

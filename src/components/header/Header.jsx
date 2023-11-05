@@ -100,12 +100,6 @@ const Header = () => {
           </ListItemIcon>
           <ListItemText primary="Home" />
         </ListItem>
-        <ListItem button onClick={(event) => handleClick(event, "contact")}>
-          <ListItemIcon>
-            <BiMessageDetail style={{ color: "#A57C01" }} />
-          </ListItemIcon>
-          <ListItemText primary="Contact" />
-        </ListItem>
         <ListItem button onClick={(event) => handleClick(event, "experience")}>
           <ListItemIcon>
             <IoLogoGameControllerB style={{ color: "#A57C01" }} />
@@ -117,6 +111,12 @@ const Header = () => {
             <ImFileVideo style={{ color: "#A57C01" }} />
           </ListItemIcon>
           <ListItemText primary="Clips" />
+        </ListItem>
+        <ListItem button onClick={(event) => handleClick(event, "contact")}>
+          <ListItemIcon>
+            <BiMessageDetail style={{ color: "#A57C01" }} />
+          </ListItemIcon>
+          <ListItemText primary="Contact" />
         </ListItem>
       </List>
     </div>
@@ -153,14 +153,14 @@ const Header = () => {
               <a className="btn-link" href="#about">
                 Home
               </a>
-              <a className="btn-link" href="#contact">
-                Contact
-              </a>
               <a className="btn-link" href="#experience">
                 Games
               </a>
               <a className="btn-link" href="#portfolio">
                 Clips
+              </a>
+              <a className="btn-link" href="#contact">
+                Contact
               </a>
               <Button
                 onClick={toggleDarkMode}
