@@ -9,7 +9,6 @@ import vidML from '../../assets/ML.mp4';
 import vidDota from '../../assets/Dota.mp4';
 import vidGI from '../../assets/GI2.mp4';
 
-
 const Portfolio = () => {
   return (
     <section id='portfolio'>
