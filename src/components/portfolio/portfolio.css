@@ -8,10 +8,9 @@
 .portfolio__item{
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FDB931 0%, #FDB931 8%, #FDB931 25%, #8A6E2F 62.5%, #5d4a1f 100%);
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 2rem;
 }
-
 
 .portfolio__item:hover{
     border-color: var(--color-gold);

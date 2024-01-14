@@ -48,14 +48,14 @@ const Contact = () => {
           <article className="contact__option">
             <IoLogoGameControllerB className="contact__option-icon"/>
             <h4>Dota 2</h4>
-            <h5>Nari</h5>
-            <h4>ID #: 913086967</h4>
+            <h5>Ei</h5>
+            <h4>ID #: 872533417</h4>
           </article>
           <article className="contact__option">
             <IoLogoGameControllerB className="contact__option-icon"/>
             <h4>Valorant</h4>
-            <h5>Riot ID: Kintarou</h5>
-            <h4>Tagline: #Hoshi</h4>
+            <h5>Riot ID: Eii</h5>
+            <h4>Tagline: #1437</h4>
           </article>
           <article className="contact__option">
             <IoLogoGameControllerB className="contact__option-icon"/>
