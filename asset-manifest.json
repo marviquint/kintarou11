@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/kintarou11/static/css/main.63206914.css",
-    "main.js": "/kintarou11/static/js/main.26b77187.js",
+    "main.css": "/kintarou11/static/css/main.8937b525.css",
+    "main.js": "/kintarou11/static/js/main.f539bae3.js",
     "static/media/ML.mp4": "/kintarou11/static/media/ML.c63c8ad3c2c1d4298d67.mp4",
+    "static/media/GI.mp4": "/kintarou11/static/media/GI.c53cebcee92b04077655.mp4",
     "static/media/Dota.mp4": "/kintarou11/static/media/Dota.da2cb4d957d79ff5eb6e.mp4",
     "static/media/Valorant.mp4": "/kintarou11/static/media/Valorant.a6b8667a1f1a442cbc3d.mp4",
-    "static/media/GI2.mp4": "/kintarou11/static/media/GI2.3e7e36a963a638a04a3e.mp4",
     "static/media/MARVS.png": "/kintarou11/static/media/MARVS.504c24434127230f10c2.png",
-    "static/media/GI.png": "/kintarou11/static/media/GI.5b4d8104149d8bc01e25.png",
-    "static/media/ML.png": "/kintarou11/static/media/ML.18de3752188efb0dec74.png",
-    "static/media/Valorant.png": "/kintarou11/static/media/Valorant.c88c232930d630314fa0.png",
-    "static/media/Dota.png": "/kintarou11/static/media/Dota.3eb5576c3e5772e45d28.png",
     "index.html": "/kintarou11/index.html",
-    "main.63206914.css.map": "/kintarou11/static/css/main.63206914.css.map",
-    "main.26b77187.js.map": "/kintarou11/static/js/main.26b77187.js.map"
+    "main.8937b525.css.map": "/kintarou11/static/css/main.8937b525.css.map",
+    "main.f539bae3.js.map": "/kintarou11/static/js/main.f539bae3.js.map"
   },
   "entrypoints": [
-    "static/css/main.63206914.css",
-    "static/js/main.26b77187.js"
+    "static/css/main.8937b525.css",
+    "static/js/main.f539bae3.js"
   ]
 }
