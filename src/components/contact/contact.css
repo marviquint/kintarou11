@@ -1,6 +1,6 @@
 .container.contact__container{
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 30% 30% 30%;
     gap: 8rem;
     align-items: center;
     justify-content: center;

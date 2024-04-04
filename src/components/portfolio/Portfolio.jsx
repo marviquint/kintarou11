@@ -4,6 +4,7 @@ import vidValo from '../../assets/Valorant.mp4'
 import vidML from '../../assets/ML.mp4';
 import vidDota from '../../assets/Dota.mp4';
 import vidGI from '../../assets/GI.mp4';
+import vidHSR from '../../assets/hsr.mp4'
 
 const Portfolio = () => {
   return (
@@ -25,6 +26,10 @@ const Portfolio = () => {
          <video autoPlay loop muted src={vidML} id="ML__video" />
         </div>
       </div>
+      
+      <div className="video__HSR">
+         <video autoPlay loop muted src={vidHSR} id="HSR__video" />
+        </div>
     </section>
   )
 }

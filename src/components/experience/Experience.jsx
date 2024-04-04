@@ -40,6 +40,12 @@ const Experience = () => {
             <article className="experience__details">
             <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+              <h4>Honkai Star Rail</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+            <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
               <h4>League of Legends</h4>
               </div>
             </article>
