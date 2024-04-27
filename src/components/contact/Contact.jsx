@@ -45,7 +45,7 @@ const Contact = () => {
           <article className="contact__option">
             <IoLogoGameControllerB className="contact__option-icon" />
             <h4>Genshin Impact</h4>
-            <h5>Ei</h5>
+            <h5>Rinkashi</h5>
             <h4>UID: 872323686</h4>
           </article>
           <article className="contact__option">
